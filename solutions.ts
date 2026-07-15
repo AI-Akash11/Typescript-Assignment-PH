@@ -28,3 +28,19 @@ function checkType(input: TStringOrNumber): string {
 
 // console.log (checkType("Hello"))
 // console.log(checkType(42))
+
+// problem 4
+
+function getProperty<T, K extends keyof T> (object: T, key: K) : T[K] {
+    return object[key]
+}
+
+// const user = { id: 1, name: "John Doe", age: 21 };
+// const owner = { id: 2, name: "Akash", age: 22 };
+
+// console.log(getProperty(user, "id"));
+// console.log(getProperty(user, "name"));
+// console.log(getProperty(user, "age"));
+// console.log(getProperty(owner, "id"));
+// console.log(getProperty(owner, "name"));
+// console.log(getProperty(owner, "age"));
