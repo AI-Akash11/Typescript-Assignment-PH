@@ -4,7 +4,7 @@
 
 ## Introduction
 
-Typescript helps developers write safer Javascript by adding static types. However, TypeScript also provides the `any` type, which disables type checking completely. Although `any` can be useful in certain situations, it can also introduce bugs that TypeScript is designed to prevent. In many cases, the `unknown` type is a sager alternative because it forces developer to verifgy the data before using it.
+TypeScript helps developers write safer JavaScript by adding static types. However, TypeScript also provides the `any` type, which disables type checking completely. Although `any` can be useful in certain situations, it can also introduce bugs that TypeScript is designed to prevent. In many cases, the `unknown` type is a safer alternative because it forces developers to verify the data before using it.
 
 ---
 
@@ -17,7 +17,7 @@ The `any` type tells TypeScript to ignore type checking for a value. Once a vari
 ```ts
 let value: any = "Hello";
 value = 100;
-value.toUpperCase(); // No error on compile time
+value.toUpperCase(); // No error at compile time
 ```
 
 > Although this compiles successfully, it may cause runtime errors if the value is not actually a string.

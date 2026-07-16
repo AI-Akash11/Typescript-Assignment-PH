@@ -64,6 +64,7 @@ Find the intersection of two arrays.
 
 - TypeScript
 - Object-Oriented Programming (OOP)
+- GitHub
 
 ---
 
@@ -100,5 +101,5 @@ node solutions.js
 
 **Ali Imam Akash**
 
-- **Portfolio:** [ali-imam-akash.vercel.app](https://ali-imam-akash.vercel.app/)
+- **Portfolio:** [Ali Imam Akash](https://ali-imam-akash.vercel.app/)
 - **LinkedIn:** [Ali Imam Akash](https://www.linkedin.com/in/ali-imam-akash/)

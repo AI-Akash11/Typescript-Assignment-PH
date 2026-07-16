@@ -16,9 +16,9 @@ function reverseString(string: string): string {
 
 // Problem 3
 
-type TStringOrNumber = string | number;
+type StringOrNumber = string | number;
 
-function checkType(input: TStringOrNumber): string {
+function checkType(input: StringOrNumber): string {
   if (typeof input === "string") {
     return "String";
   } else {
