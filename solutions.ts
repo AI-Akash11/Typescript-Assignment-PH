@@ -8,7 +8,7 @@ function filterEvenNumbers(numbers: number[]): number[] {
 
 // Problem 2
 
-function reverseString(string: string): any {
+function reverseString(string: string): string {
   return string.split("").reverse().join("");
 }
 
